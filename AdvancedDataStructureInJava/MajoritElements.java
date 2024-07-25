@@ -13,6 +13,7 @@ public class MajoritElements {
                 count++;
             }
             else {
+                //not exist
                 count--;
             }
 
