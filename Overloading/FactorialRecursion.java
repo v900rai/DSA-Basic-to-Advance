@@ -6,6 +6,7 @@ public class FactorialRecursion {
             return 1;
         else
             return(n * factorial(n-1));
+        //hflhcg
     }
     public static void main(String args[]){
         int i,fact=1;
