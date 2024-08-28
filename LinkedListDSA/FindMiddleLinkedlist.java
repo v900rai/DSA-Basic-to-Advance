@@ -54,7 +54,7 @@ public class FindMiddleLinkedlist {
         head.next.next.next.next = new Node(50);
         head.next.next.next.next.next = new Node(60);
         head.next.next.next.next.next.next = new Node(70);
-        head.next.next.next.next.next.next.next = new Node(80);
+        head.next.next.next.next.next.next.next = new Node(70);
 
 
         // Example of printing the middle value of the
