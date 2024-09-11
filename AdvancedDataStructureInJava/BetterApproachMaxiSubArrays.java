@@ -15,6 +15,8 @@ public class BetterApproachMaxiSubArrays {
             int sum = 0;
             for (int j = i + 1; j < n; j++) {
 
+
+                //sum
                 sum += arr[j];
 
                 maxi = Math.max(maxi, sum);
