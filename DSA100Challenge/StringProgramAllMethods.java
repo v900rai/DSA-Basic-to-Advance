@@ -15,6 +15,14 @@ public class StringProgramAllMethods {
         System.out.println(" print the character  " + ch);
 */
 
+ int count =0;
+ for(int i=0; i<str.length(); i++) {
+     char ch = str.charAt(i);
+     if (Character.isUpperCase(ch))
+         count++;
+     }
+     System.out.println(count);
+
 
     }
 }
