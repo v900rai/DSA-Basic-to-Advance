@@ -5,7 +5,7 @@ public class textBit {
         int[] arr = { 5,4,3,2,4,5,2};
         int ans=0;
         for (int j : arr) {
-            ans ^= j;
+            ans=ans ^ j;
 
 
         }
