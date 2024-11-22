@@ -1,4 +1,4 @@
-package OOPSJAVA.INHERITANCE;
+package OOPSJAVA.INHERITANCE.singleLevelHinheritancs.student;
  abstract class Bike{
     abstract void run();
 }

@@ -1,4 +1,4 @@
-package OOPSJAVA.INHERITANCE;
+package OOPSJAVA.INHERITANCE.singleLevelHinheritancs.student;
 
 public class Employee {
     float salary=40000;
