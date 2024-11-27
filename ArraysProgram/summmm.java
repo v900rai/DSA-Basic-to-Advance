@@ -6,6 +6,8 @@ public class summmm {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum=sum+arr[i];
+            //add krna hota h progrqam ko
+
 
         }
         System.out.println(sum);
