@@ -2,7 +2,7 @@ package OOPSJAVA.INHERITANCE.UpcastingAndDownCasting;
 
 public class DownCasting {
     public static void main(String[] args) {
-        parentt p=new chieldd();
+        parentt p= new parentt();
 
 
     }
