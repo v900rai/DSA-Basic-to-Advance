@@ -3,7 +3,7 @@ package December2024;
 
     // Iterative Java program to reverse a linked list
 
-    class Node {
+   /* class Node {
         int data;
         Node next;
 
@@ -11,7 +11,7 @@ package December2024;
             data = new_data;
             next = null;
         }
-    }
+    }*/
 
     // Given the head of a list, reverse the list and return the
 // head of reversed li
