@@ -16,8 +16,29 @@ class InorderTraversalll {
             return;
 
         inorderTraversal(node.left); // Fixed case
-        System.out.println(node.data);
+        System.out.print(node.data+" ");
         inorderTraversal(node.right); // Fixed case
+    }
+
+    static void postOrderTraversal(Node node){
+        if(node ==null){
+            return ;
+        }
+
+        postOrderTraversal(node.left);
+        postOrderTraversal(node.right);
+        System.out.print(node.data+" ");
+
+    }
+    static void preOderTraversal(Node node){
+        if(node ==null){
+            return ;
+        }
+        System.out.print(node.data+" ");
+        preOderTraversal(node.left);
+        postOrderTraversal(node.right);
+
+
     }
 
     public static void main(String[] args) {
@@ -26,6 +47,11 @@ class InorderTraversalll {
         root.right = new Node(3);
         root.left.left = new Node(4);
         root.left.right = new Node(5);
-        inorderTraversal(root); // Fixed case
+        inorderTraversal(root);
+        // Fixed case
+        System.out.println();
+        postOrderTraversal(root);
+        System.out.println();
+        postOrderTraversal(root);
     }
 }
