@@ -11,8 +11,9 @@ public class fibonacciSeriesNumber {
         int b=1;
         int c;
         for(int i=1; i<num; i++){
-            System.out.print(a+", ");
+
             c=a+b;
+            System.out.println(c);
             a=b;
             b=c;
 
