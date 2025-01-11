@@ -2,11 +2,7 @@ package Constructors;
 
 public class DefacultConstructorInJava {
 
-
-
-
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             Student s = new Student();
             System.out.println(s.id + " " + s.name); // Output: 0 Default Name
         }
