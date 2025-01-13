@@ -17,7 +17,7 @@ class Cat implements Animal {
     }
 }
 
-public class polymorishm {
+public class Main {
     public static void main(String[] args) {
         Animal myAnimal; // Interface reference
         myAnimal = new Dog();

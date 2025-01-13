@@ -27,7 +27,7 @@ class C implements A, B {
     }
 }
 
-public class InterfaceDeclerd {
+public class Main {
     public static void main(String[] args) {
         C obj = new C();
         obj.methodA(); // Output: Method A implemented
