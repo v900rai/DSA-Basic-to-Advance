@@ -5,3 +5,7 @@ public class Hello {
         System.out.println("Hello world");
     }
 }
+
+// Time Complexity: O(1) - Constant time
+// Space Complexity: O(1) - No extra space used
+
