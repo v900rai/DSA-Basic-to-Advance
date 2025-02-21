@@ -9,7 +9,7 @@ public class FindUniqueCharacterInStringLeetcode {
         int freq[]=new int[26];
         char chars[]=str.toCharArray();
         for(char ch:chars){
-            freq[ch-'a']++;
+            freq[ch - 'a']++;
 
         }
         for(int i=0; i<chars.length; i++){
