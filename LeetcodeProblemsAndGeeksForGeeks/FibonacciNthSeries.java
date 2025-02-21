@@ -10,6 +10,6 @@ public class FibonacciNthSeries {
     public static void main(String arg[]){
         int n=5;
         int result=nthFibonacci(n);
-        System.out.println(resultgit );
+        System.out.println(result );
     }
 }
