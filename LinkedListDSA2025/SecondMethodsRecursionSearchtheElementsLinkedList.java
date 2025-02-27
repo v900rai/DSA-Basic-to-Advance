@@ -1,4 +1,4 @@
-package LinkedListDSA;
+package LinkedListDSA2025;
 
 public class SecondMethodsRecursionSearchtheElementsLinkedList {
     public static boolean isSearchKey(Node head, int key) {

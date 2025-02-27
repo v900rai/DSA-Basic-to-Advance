@@ -1,4 +1,4 @@
-package LinkedListDSA;
+package LinkedListDSA2025;
 class Daba{
     int data;
     Daba next;
