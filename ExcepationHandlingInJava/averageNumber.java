@@ -10,6 +10,7 @@ public class averageNumber {
         }
         // Calculate the average value by dividing the sum by the number of elements.
         double average = sum / numbers.length;
+        // jhbvhjguqhebuv yuvgc
 
         // Print the calculated average value to the console.
         System.out.println("Average value of the array elements is : " + average);
