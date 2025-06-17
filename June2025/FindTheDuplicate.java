@@ -1,5 +1,6 @@
 package June2025;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,6 +9,7 @@ public class FindTheDuplicate {
         int[] arr = {4, 5, 6, 4};
         System.out.println(checkDuplicates(arr));
         System.out.println(hashSetcheckDuplicates(arr));
+        System.out.println(checkDuplicatesArrySort(arr));
     }
 
     public static boolean hashSetcheckDuplicates(int nums[]){
@@ -32,6 +34,23 @@ public class FindTheDuplicate {
                 }
             }
         }
+        return false;
+    }
+    static boolean checkDuplicatesArrySort(int[] arr) {
+        int n = arr.length;
+
+        // Sort the array
+        Arrays.sort(arr);
+
+        // Iterate through the sorted array
+        for (int i = 1; i < n; i++) {
+
+            // Check if adjacent elements are equal
+            if (arr[i] == arr[i - 1])
+                return true;
+        }
+
+        // If no duplicates are found, return false
         return false;
     }
 }
