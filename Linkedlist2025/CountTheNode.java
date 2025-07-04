@@ -1,4 +1,5 @@
 package Linkedlist2025;
+
 class Node {
     int data;
     Node next;
@@ -9,21 +10,21 @@ class Node {
         next = null;
     }
 }
+
 public class CountTheNode {
-    public static int countNode(Node head){
-        //Inilialize the count with 0
-        int count=0;
-        Node curr=head;
-        while(curr!=null){
+    public static int countNode(Node head) {
+        // Initialize the count with 0
+        int count = 0;
+        Node curr = head;
+        while (curr != null) {
             count++;
-            curr=curr.next;
+            curr = curr.next;
         }
         return count;
     }
 
     // Driver code
     public static void main(String[] args) {
-
         // Create a hard-coded linked list:
         // 1 -> 3 -> 1 -> 2 -> 1
         Node head = new Node(1);
@@ -33,9 +34,6 @@ public class CountTheNode {
         head.next.next.next.next = new Node(1);
 
         // Function call to count the number of nodes
-        System.out.println("Count of nodes is "
-                + countNode(head));
+        System.out.println("Count of nodes is " + countNode(head));  // Changed countNodes to countNode
     }
-
-
 }
