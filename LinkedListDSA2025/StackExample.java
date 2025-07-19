@@ -11,6 +11,7 @@ package LinkedListDSA2025;
             st.push(10);
             st.push(20);
             st.push(30);
+            st.push(40);
 
             System.out.println("Stack: " + st); // [10, 20, 30]
 
