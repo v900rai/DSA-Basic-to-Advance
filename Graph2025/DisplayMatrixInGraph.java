@@ -5,7 +5,7 @@ public class DisplayMatrixInGraph {
 
 
         public static void addEdge(int[][] mat, int i, int j) {
-            mat[i][j] = 1;
+            mat[i][j] = 1; //
             mat[j][i] = 1; // Since the graph is undirected
         }
 
