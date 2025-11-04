@@ -1,4 +1,4 @@
-package BasicRecursion;
+package ArraysTop50InterveiwProblemsGFG;
 
 public class armstrongNUmber {
     public static void main(String[] args) {
