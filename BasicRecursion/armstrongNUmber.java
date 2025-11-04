@@ -12,6 +12,8 @@ public class armstrongNUmber {
 
         }
         if(sum==num){
+
+            System.out.println("Whenever both are same the print number ");
             System.out.println(sum);
         }
     }
