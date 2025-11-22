@@ -1,3 +1,4 @@
+/*
 package graph202666;
 
 
@@ -47,13 +48,13 @@ public class DFSExample {
         public static void main(String[] args) {
 
             // Creating Tree
-        /*
                 1
               /   \
              2     3
             / \
            4   5
-         */
+
+
             Node root = new Node(1);
             root.left = new Node(2);
             root.right = new Node(3);
@@ -74,3 +75,4 @@ public class DFSExample {
     }
 
 
+*/
