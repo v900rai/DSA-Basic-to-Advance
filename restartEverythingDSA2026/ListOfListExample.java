@@ -20,6 +20,7 @@ package restartEverythingDSA2026;
                 bigList.add(list1);
                 bigList.add(list2);
                 bigList.add(list3);
+                bigList.add(list4);
 
                 // Step 4: Print using nested loop
                 System.out.println("Printing List of List:");
