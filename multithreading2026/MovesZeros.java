@@ -6,6 +6,7 @@ public class MovesZeros {
         int left =0;
         for(int right =0; right<arr.length; right++){
             if(arr[right] != 0){
+                // swaping methods
                 int temp = arr[right];
                 arr[right] = arr[left];
                 arr[left] = temp;
